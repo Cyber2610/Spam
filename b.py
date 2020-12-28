@@ -126,9 +126,9 @@ def menu():
     pt()
     print '\33[33;1m <<---------------[ PAYLOAD MENU ]---------------->> 
     pt()
-    print (1) 'android'
+    print '(1) 'android'
     pt()
-    print (2) 'windows'
+    print '(2) 'windows'
     pt()
     print '.............................................................'
     pt()
