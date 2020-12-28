@@ -130,7 +130,7 @@ def menu():
     pt()
     print ('2') 'windows'
     pt() 
-    print '-------------------------------'
+    print '\33[33;1m-------------------------------'
     pt() 
     op = raw_input 'select'
     if op == '1':
