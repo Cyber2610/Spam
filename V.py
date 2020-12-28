@@ -61,7 +61,7 @@ def android():
     print ''
     print '\33[33;1m succesfully '
     print ''
-    yan = raw_input ' Are You want to start listner (n/y) ')
+    yan = 'raw_input  Are You want to start listner (n/y) ')
     if yan == 'y':
         print ''
         print '............................................................'
@@ -84,15 +84,15 @@ def windows():
     pt()
     print '\33[33;1m 'IP LOKAL'
     pt()
-    ip = raw_input ' ip Addreess = '
+    ip = 'raw_input  ip Addreess = '
     pt()
     print '\33[33;1m ' port = 4444'
     pt()
-    port = raw_input ' port Number = '
+    port = 'raw_input  port Number = '
     print ''
     print 'path && Name = /sdcard/hack.apk'
     pt()
-    pay = raw_input ' path Name = '
+    pay = 'raw_input  path Name = '
     pt()
     print '\33[33;1m installing payload........'
     pt()
@@ -100,7 +100,7 @@ def windows():
     print ''
     print '\33[33;1m succesfully '
     print ''
-    yan = raw_input ' Are You want to start listner (n/y) ')
+    yan = 'raw_input  Are You want to start listner (n/y) ')
     if yan == 'y':
         print ''
         print '............................................................'
@@ -132,7 +132,7 @@ def menu():
     pt() 
     print '
     pt() 
-    op = raw_input 'select'
+    op = 'raw_input 'Lselect'
     if op == '1':
         os.system('clear')
         pt()
