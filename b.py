@@ -128,9 +128,9 @@ def menu():
     pt()
     print ('1') 'android'
     pt()
-    print ('2') 'windows
+    print ('2') 'windows'
     pt() 
-    print <<---------------[ PAYLOAD MENU ]---------------->> 
+    print. '-------------------------------'
     op = raw_input 'select'
     if op == '1':
         os.system('clear')
