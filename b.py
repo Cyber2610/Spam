@@ -131,6 +131,7 @@ def menu():
     print ('2') 'windows'
     pt() 
     print '-------------------------------'
+    pt() 
     op = raw_input 'select'
     if op == '1':
         os.system('clear')
