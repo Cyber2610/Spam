@@ -51,7 +51,7 @@ def android():
     pt()
     port = raw_input ' [port] Number = '
     print ''
-    print ' 'path && Name = /sdcard/hack.apk'
+    print 'path && Name = /sdcard/hack.apk'
     pt()
     pay = raw_input ' [path] Name = '
     pt()
@@ -90,7 +90,7 @@ def windows():
     pt()
     port = raw_input ' [port] Number = '
     print ''
-    print ' 'path && Name = /sdcard/hack.apk'
+    print 'path && Name = /sdcard/hack.apk'
     pt()
     pay = raw_input ' [path] Name = '
     pt()
